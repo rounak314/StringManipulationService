@@ -253,6 +253,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:61002/fetchOperationCount?stringId=sm_07564ecfbd984ad982956ab94d0c3b4a",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:61002/fetchOperationCount?stringId=sm_07564ecfbd984ad982956ab94d0c3b4a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "61002",
+					"path": [
+						"fetchOperationCount"
+					],
+					"query": [
+						{
+							"key": "stringId",
+							"value": "sm_07564ecfbd984ad982956ab94d0c3b4a"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
